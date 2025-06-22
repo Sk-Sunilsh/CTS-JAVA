@@ -1,0 +1,24 @@
+Purpose:
+Illustrates both recursive and iterative approaches to compute compound interest over a given time period.
+
+Used In:
+FinancialForecasting.java
+
+Technical Highlights:
+
+Recursive method calculates future value through repeated method calls, modeling the compounding process naturally.
+
+Iterative method uses a loop to achieve the same result with better performance and lower memory usage.
+
+Utilizes Java's Scanner for user input and NumberFormat for formatting currency output.
+
+Benefits:
+
+Demonstrates the trade-offs between recursion and iteration in terms of time and space complexity.
+
+Helps in understanding control flow and performance characteristics of different programming techniques.
+
+Applicable to basic financial forecasting, investment simulations, or projecting time-based data growth.
+
+Serves as a foundational example for teaching mathematical modeling in programming.
+
