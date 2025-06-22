@@ -1,0 +1,41 @@
+Purpose:
+Implements linear and binary search algorithms to enable product lookup based on unique product IDs.
+
+Used In:
+ECommerceSearch.java
+
+Technical Highlights:
+
+Linear Search:
+Traverses the Product[] array sequentially to find a matching productId. Simple to implement but less efficient for large datasets.
+
+Binary Search:
+Performs fast search on a sorted array using Comparator.comparingInt(p -> p.productId). Reduces time complexity by dividing the search space in half with each step.
+
+Benefits:
+
+Highlights the difference between O(n) (linear) and O(log n) (binary) time complexities.
+
+Serves as a foundational concept in computer science for understanding search operations.
+
+Useful for building features such as:
+
+Product search and filter systems in e-commerce platforms
+
+Recommendation engines
+
+Inventory or catalog management tools
+
+Reinforces the importance of data preprocessing, such as sorting, for enabling efficient algorithms.
+
+Demonstrates how algorithm choice impacts application performance and user experience.
+
+Extended Usage:
+Can be expanded to support:
+
+Search by other fields (e.g., name or category)
+
+Case-insensitive or partial matching
+
+Integration with advanced data structures like hash maps or trees for faster access
+
