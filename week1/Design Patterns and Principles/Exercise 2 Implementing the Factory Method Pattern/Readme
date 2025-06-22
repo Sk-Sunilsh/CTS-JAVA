@@ -1,0 +1,23 @@
+Purpose:
+Defines a common interface for object creation, allowing subclasses to determine the specific type of object to instantiate.
+
+Used In:
+FactoryMethodPatternExample.java
+
+Technical Highlights:
+
+Interface: Document with a method like open().
+
+Concrete Classes: WordDocument, PdfDocument, ExcelDocument implement the Document interface.
+
+Factories: WordDocumentFactory, PdfDocumentFactory, ExcelDocumentFactory override the createDocument() method to return specific document types.
+
+Benefits:
+
+Encourages loose coupling between client code and concrete implementations.
+
+Enhances scalability by allowing new document types to be added with minimal changes.
+
+Supports the Open/Closed Principle — classes are open for extension but closed for modification.
+
+Makes the code more maintainable, testable, and adaptable to change.
