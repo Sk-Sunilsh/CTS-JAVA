@@ -1,0 +1,25 @@
+Purpose:
+Ensures that only one instance of a class exists and provides a global access point to that instance.
+
+Used In:
+SingletonPatternExample.java
+
+Technical Highlights:
+
+Implements lazy initialization by creating the instance only when needed.
+
+Uses a private constructor to restrict instantiation from outside the class.
+
+Provides a static method (getInstance()) to access the single instance.
+
+Commonly applied in areas such as logging, configuration management, and database connection handling.
+
+Benefits:
+
+Prevents resource conflicts by maintaining a single shared instance.
+
+Ensures consistent behavior across the application, especially for tasks like logging.
+
+Reduces memory usage by avoiding unnecessary object creation.
+
+Simplifies debugging and maintenance by centralizing control.
